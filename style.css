@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 10% 20%;
+}
+body {
+  overscroll-behavior-y: none;
+}
+
+h2 {
+  padding: 2rem 0rem;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(30, 30, 30);
+}
+
+h3 {
+  padding: 2rem 0rem;
+  font-size: 2.5rem;
+  color: rgb(30, 30, 30);
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 175%;
+  color: rgb(30, 30, 30);
+}
+
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8px;
+  z-index: 100;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  width: 0%;
+  transition: width 0.2s ease-out;
+}
